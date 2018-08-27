@@ -34,7 +34,7 @@ holiday_hash.each do |seasons, holidays|
       supplies << supply
       end
     end
-  end    
+  end
 end
     # add the second argument to the memorial day array
 
