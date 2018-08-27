@@ -15,8 +15,7 @@ new_hash = {
 }
 
 def second_supply_for_fourth_of_july(holiday_hash)
-  binding.pry
-   holiday_hash[:summer][:fourth_of_july][:holiday_supplies][1]
+   holiday_hash[:summer][:fourth_of_july][1]
 end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
