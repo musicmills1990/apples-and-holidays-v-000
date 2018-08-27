@@ -1,5 +1,5 @@
 require 'pry'
-holiday_hash = {
+new_hash = {
 :winter => {
 :christmas => ["Lights", "Wreath"],
 :new_years => ["Party Hats"]
@@ -16,6 +16,7 @@ holiday_hash = {
 }
 
 def second_supply_for_fourth_of_july(holiday_hash)
+  binding.pry
    holiday_hash[:summer][:fourth_of_july][:holiday_supplies][1]
 end
 
