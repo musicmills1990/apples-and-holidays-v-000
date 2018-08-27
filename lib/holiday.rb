@@ -5,8 +5,7 @@ new_hash = {
 :new_years => ["Party Hats"]
 },
 :summer => {
-:fourth_of_july => {:holiday_supplies => ["Fireworks", "BBQ"]}
-},
+:fourth_of_july => ["Fireworks", "BBQ"]},
 :fall => {
 :thanksgiving => ["Turkey"]
 },
